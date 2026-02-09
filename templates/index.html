@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YouTube Downloader Pro</title>
-  <link rel="stylesheet" href="/static/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader Pro | Premium Edition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 
-<div class="main-container">
-  <div class="glass-card">
-    <header>
-      <h1><span>🎬</span> YouTube Downloader Pro</h1>
-      <p class="subtitle">Fast, secure, and high-quality video conversion</p>
-    </header>
+    <div class="main-wrapper">
+        <div class="glass-card">
+            <header>
+                <h1 class="glow-text">🎬 YouTube Downloader Pro</h1>
+                <p class="subtitle">Fast, Premium, Unlimited Downloads</p>
+            </header>
 
-    <div class="input-group">
-      <input id="url" placeholder="Paste YouTube link here..." autocomplete="off">
-      <button onclick="fetchVideo()">
-        <span>Fetch Video</span>
-      </button>
+            <div class="input-group">
+                <input id="url" type="text" placeholder="https://youtube.com/watch?v=..." autocomplete="off">
+                <button onclick="fetchVideo()" id="btn-fetch">
+                    <span>Fetch Now</span>
+                    <div class="btn-glow"></div>
+                </button>
+            </div>
+
+            <div id="output" class="output-container">
+                </div>
+        </div>
+
+        <div class="ads">
+            <div class="ads-label">ADVERTISEMENT</div>
+            <p>🔔 High-CPM Ad Space (Google AdSense)</p>
+        </div>
     </div>
 
-    <div id="output"></div>
-
-    <div class="ads">
-      <div class="ad-badge">ADVERTISEMENT</div>
-      <p>🔔 Ads Space (Google AdSense)</p>
-    </div>
-  </div>
-</div>
-
-<script src="/static/script.js"></script>
+    <script src="/static/script.js"></script>
 </body>
+</html>
 </html>
